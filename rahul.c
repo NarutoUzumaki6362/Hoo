@@ -12,7 +12,7 @@
 #define EXPIRY_DATE "2026-03-10"
 #define PACKET_SIZE 100
 #define MAX_SOCKETS 6
-#define THREAD_COUNT 150
+#define THREAD_COUNT 1500
 
 atomic_ulong data_sent_bytes = 0;
 atomic_ulong packet_sent_count = 0;
